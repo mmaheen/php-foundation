@@ -1,4 +1,5 @@
-<?php
+
+<a href="function.php">Go to Function</a><?php
 //'php -v' for version
 //'composer -v' for composer version
 
