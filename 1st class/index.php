@@ -44,3 +44,11 @@ echo "The division of $x and $y is $division.<br>";
 
 $modulus = $x % $y; //X mod Y, X modulo Y, X remainder Y
 echo "The modulus of $x and $y is $modulus.<br>";
+
+$height = 71; //Height in inches
+$cm = $height * 2.54; //Inches to cm
+echo "My height is $height inches or $cm cm.";
+
+$feet = $height / 12; //Height in feet
+$inches = $height % 12; //Height in inches
+echo "<br>My height is $feet feet and $inches inches.<br>";
