@@ -26,6 +26,10 @@ echo "<br>";
 
 //No end tag needed in PHP files
 
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
 $x = 10;
 $y = 15;
 
@@ -52,3 +56,18 @@ echo "My height is $height inches or $cm cm.";
 $feet = $height / 12; //Height in feet
 $inches = $height % 12; //Height in inches
 echo "<br>My height is $feet feet and $inches inches.<br>";
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+$temperatureInCelsius = 25; //Temperature in Celsius
+$temperatureInFahrenheit = ($temperatureInCelsius * 9/5) + 32;
+echo "The temperature in Celsius is $temperatureInCelsius °C and in Fahrenheit is $temperatureInFahrenheit °F.<br>";
+
+echo "<br>";    
+echo  "<br>";
+echo "<br>";
+
+$inputName = readline("Enter your name: ");
+echo "Good morning, $inputName!<br>";
